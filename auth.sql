@@ -33,4 +33,7 @@ INSERT INTO users VALUES ('1', 'customer1', 'customer1@gmail.com', '$2a$08$7aHwo
 INSERT INTO users VALUES ('2', 'cutsomer2', 'cutsomer2@gmail.com', '$2a$08$7aHwoAVoCDFBIoiIrAahHuoDWEOXp9RmXid5vvd5R9aarq3NSBXIK', '2023-02-01 12:58:17', '2023-02-01 12:58:17');
 INSERT INTO users VALUES ('3', 'business1', 'business1@gmail.com', '$2a$08$7aHwoAVoCDFBIoiIrAahHuoDWEOXp9RmXid5vvd5R9aarq3NSBXIK', '2023-02-01 12:58:17', '2023-02-01 12:58:17');
 INSERT INTO users VALUES ('4', 'business2', 'business2@gmail.com', '$2a$08$7aHwoAVoCDFBIoiIrAahHuoDWEOXp9RmXid5vvd5R9aarq3NSBXIK', '2023-02-01 12:58:17', '2023-02-01 12:58:17');
-)
+INSERT INTO user_roles VALUES ('2023-02-01 12:58:17', '2023-02-01 12:58:17', '1', '1');
+INSERT INTO user_roles VALUES ('2023-02-01 12:58:17', '2023-02-01 12:58:17', '1', '2');
+INSERT INTO user_roles VALUES ('2023-02-01 12:58:17', '2023-02-01 12:58:17', '2', '3');
+INSERT INTO user_roles VALUES ('2023-02-01 12:58:17', '2023-02-01 12:58:17', '2', '4');
