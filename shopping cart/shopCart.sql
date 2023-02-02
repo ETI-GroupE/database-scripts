@@ -2,7 +2,7 @@ CREATE TABLE `checkout` (
   `ShopCartID` int NOT NULL,
   `EmailAddr` varchar(45) DEFAULT NULL,
   `Shipping` varchar(45) DEFAULT NULL,
-  `PostalCode` varchar(45) DEFAULT NULL,
+  `PostalCode` int DEFAULT NULL,
   `CreditCard` varchar(45) DEFAULT NULL,
   `TotalPayment` int DEFAULT NULL,
   PRIMARY KEY (`ShopCartID`)
