@@ -6,20 +6,20 @@ CREATE TABLE `checkout` (
   `CreditCard` varchar(45) DEFAULT NULL,
   `TotalPayment` int DEFAULT NULL,
   PRIMARY KEY (`ShopCartID`)
-);
+) 
 
 CREATE TABLE `shopping_cart_user` (
   `ShopCartID` int NOT NULL AUTO_INCREMENT,
   `UserID` int NOT NULL,
   `IsCheckout` tinyint NOT NULL DEFAULT '0',
   PRIMARY KEY (`ShopCartID`)
-);
+) 
 
 CREATE TABLE `shopping_cart` (
-  `ShopCart_ID` int DEFAULT NULL,
-  `Product_ID` int DEFAULT NULL,
+  `ShopCartID` int DEFAULT NULL,
+  `ProductID` int DEFAULT NULL,
   `Quantity` int DEFAULT NULL
-);
+)
 
 INSERT INTO checkout VALUES (1,"testing@gmail.com","1 ang mo kio central 3", "123456", "1234567891011121", "10.55");
 INSERT INTO checkout VALUES (2,"usertest@gmail.com","1 king albert park 3", "654321", "5437485912673846", "402.70");
